@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+.tutorial--container{
+    margin: 10px 0px 60px;
+}
+
+.grid--page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    gap: 40px;
+    
+}
+
+.grid--container{
+    display: grid;
+    grid-template: auto auto / repeat(40, 0fr);
+}
+
+.node--container{
+    border: thin solid black;
+    height: 25px;
+    width: 25px;
+}
+.grid--buttons{
+    display: flex;
+    gap: 40px;
+}
+.grid--button{
+    width: 120px;
+    height: 40px;
+    background: #4D5B9E;
+    border-radius: 10px;
+    border:none;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    color: #F5F7FB;
+}
+
+
+.legend--start, .legend--target, .legend--path, .legend--visited, .legend--wall, .legend--weight{
+    height: 25px;
+    width: 25px;
+}
+
+.legend--start{
+    background: green;
+}
+
+.legend--target{
+    background: red;
+}
+
+.legend--path{
+    background: yellow
+}
+
+.legend--visited{
+    background: blue
+}
+
+.legend--wall{
+    background: black
+}
+
+.legend--weight{
+    background: purple
+}
+
+.nav--legend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.legend--element{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav--textcontainer{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.nav--algotext{
+    margin: 0px;
+}
