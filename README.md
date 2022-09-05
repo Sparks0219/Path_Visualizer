@@ -27,7 +27,7 @@ Some of the core React concepts I used in this project were:
 - the useState() hook to store and update variables regarding nodes such as whether they were weighted, walls, etc. 
 - the useEffect() hook to allow/disallow weighted nodes depending on what algorithm is picked
 - the useTimeout() hook to create the animation for the pathfinding algorrithms 
-- Conditional Rendering show/hide the tutorial page and enabling dynamic styles for the node colors 
+- Conditional Rendering to show/hide the tutorial page and enabling dynamic styles for the node colors 
 
 ## Try it here!
 https://sparks0219-path-visualizer.netlify.app
