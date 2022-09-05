@@ -1,4 +1,4 @@
-# Path_Visualizer
+# Pathfinding Visualizer
 
 This is my Pathfinding Visualizer inspired from Clément Mihailescu's video on his projects. 
 I used a combination of JavaScript, CSS, HTML, and React hooks to construct 
